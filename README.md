@@ -11,38 +11,38 @@ This project detects between five ***emotions***, ***sad***, ***happy***, ***ang
 
 We are using Python 3.7.6 in this project.
 
-Clone the repository
+- Clone the repository
 
-Create a python3 virutal environment and activate it.
+- Create a python3 virutal environment and activate it.
 
-If you use ```venv```, follow as below to create a virtual environment.
+- If you use ```venv```, follow as below to create a virtual environment.
 
 ```
 python -m venv <Virtual Env Name>
 source <Virtual Env Name>/bin/activate
 ```
-If you use ```conda```, follow as below to create the virtual environment.
+- If you use ```conda```, follow as below to create the virtual environment.
 ```
 conda create -n <Virtual Env Name> python=3.7.6
 ```
 
-Activate and Deactivate before and after working with the project.
+- Activate and Deactivate before and after working with the project respectively.
 ```
 conda activate <Virtual Env Name>
 conda deactivate
 ```
 
-After that install the required packages using pip,
+- After that install the required packages using pip,
 ```
 pip install -r requirements.txt
 ```
 
-Run the file,
+- Run the file,
 ```
 python detect_emotions.py
 ```
 
-Press ```q``` on the keyboard to stop video capture and to stop the program.
+- Press ```q``` on the keyboard to stop video capture and to stop the program.
 
 ### Note-1
 If you are trying to run this on a non-GPU device (or a GPU that doesn't support CUDA), you may face some issues with loading the model ```torch```, since the model was trained using GPUs. In such case, please follow as below.
