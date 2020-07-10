@@ -3,7 +3,7 @@
 
 This project is an extension of [Martin Chobanyan's Project](https://github.com/martin-chobanyan/emotion.git). The author has also explained the process in an [article](https://towardsdatascience.com/training-an-emotion-detector-with-transfer-learning-91dea84adeed).
 
-In this we have removed any inconsistencies and dependency issues and also corrected few errors from that project. The hyper-parameters were also changed to produce a better model. 
+In this we have removed any inconsistencies and dependency issues and also corrected few errors from that project. The hyper-parameters were also changed to produce a better model.
 
 This project classifies between five different emotions: ***sad***, ***happy***, ***anger***, ***surprised***, and ***disgusted***.
 
@@ -37,6 +37,8 @@ conda deactivate
 pip install -r requirements.txt
 ```
 
+- Install the FreeMono Bold font for text-overlay.
+
 - Run the file,
 ```
 python detect_emotions.py
@@ -67,5 +69,8 @@ def load(f, map_location=None, pickle_module=pickle, \*\*pickle_load_args):
 
 7. Change the map_location from ```None``` to ```'cpu'```
 
-### Note-2
+### Note-4
+This camera overlay text requires the font ```FreeMono Bold```. The font is in the project repository (```.ttf```).
+
+### Note-3
 This project by default tries to run on laptop's built in webcam. If you want external cameras, modify line 112 of ```detect_emotions.py``` accordingly.
