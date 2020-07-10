@@ -5,7 +5,7 @@ This project is an extension of [Martin Chobanyan's Project](https://github.com/
 
 In this we have removed any inconsistencies and dependency issues and also corrected few errors from that project. The hyper-parameters were also changed to produce a better model. 
 
-This project detects between five ***emotions***, ***sad***, ***happy***, ***anger***, ***surprised***, and ***disgusted***.
+This project classifies between five different emotions: ***sad***, ***happy***, ***anger***, ***surprised***, and ***disgusted***.
 
 ### Installation
 
