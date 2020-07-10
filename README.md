@@ -68,4 +68,4 @@ def load(f, map_location=None, pickle_module=pickle, \*\*pickle_load_args):
 7. Change the map_location from ```None``` to ```'cpu'```
 
 ### Note-2
-This project by default tries to run on laptop's built in webcam. If you want external cameras, modify line 112 accordingly.
+This project by default tries to run on laptop's built in webcam. If you want external cameras, modify line 112 of ```detect_emotions.py``` accordingly.
