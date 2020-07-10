@@ -1,13 +1,15 @@
 # Emotion-Detection
 ## Detects Emotion on Video captured live via Webcam
 
-We are using Python 3.7.6 in this project.
+This project is an extension of [Martin Chobanyan's Project] (https://github.com/martin-chobanyan/emotion.git). The author has also explained the process in an [article] (https://towardsdatascience.com/training-an-emotion-detector-with-transfer-learning-91dea84adeed).
 
-This project is an extension of [Martin Chobanyan's Project] (https://github.com/martin-chobanyan/emotion.git). I have removed all the inconsistencies and dependency issues from that project. The hyper-parameters were also changed to produce a better model.
+In this we have removed any inconsistencies and dependency issues and also corrected few errors from that project. The hyper-parameters were also changed to produce a better model. 
 
 This project detects between five ***emotions***, ***sad***, ***happy***, ***anger***, ***surprised***, and ***disgusted***.
 
-### installation
+### Installation
+
+We are using Python 3.7.6 in this project.
 
 Clone the repository
 
@@ -59,7 +61,9 @@ The above command should open the desired file on your default python file edito
 
 6. Find the ```load``` function definition, which will be in the format,
 
-"""def load(f, map_location=None, pickle_module=pickle, \*\*pickle_load_args):"""
+```
+def load(f, map_location=None, pickle_module=pickle, \*\*pickle_load_args):
+```
 
 7. Change the map_location from ```None``` to ```'cpu'```
 
