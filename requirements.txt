@@ -1,0 +1,8 @@
+google_images_download
+facenet_pytorch
+numpy
+pandas
+pillow
+torch
+torchvision
+tqdm
