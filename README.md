@@ -37,7 +37,7 @@ conda deactivate
 pip install -r requirements.txt
 ```
 
-- Install the FreeMono Bold font for text-overlay.
+- Install the *FreeMonoBold* font for text-overlay.
 
 - Run the file,
 ```
@@ -69,8 +69,8 @@ def load(f, map_location=None, pickle_module=pickle, \*\*pickle_load_args):
 
 7. Change the map_location from ```None``` to ```'cpu'```
 
-### Note-4
-This camera overlay text requires the font ```FreeMono Bold```. The font is in the project repository (```.ttf```).
+### Note-2
+This camera overlay text requires the font ```FreeMono Bold```. The font is in the project repository (```FreeMonoBold.ttf```).
 
 ### Note-3
 This project by default tries to run on laptop's built in webcam. If you want external cameras, modify line 112 of ```detect_emotions.py``` accordingly.
