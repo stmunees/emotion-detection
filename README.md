@@ -1,7 +1,7 @@
 # Emotion-Detection
 ## Detects Emotion on Video captured live via Webcam
 
-This project is an extension of [Martin Chobanyan's Project] (https://github.com/martin-chobanyan/emotion.git). The author has also explained the process in an [article] (https://towardsdatascience.com/training-an-emotion-detector-with-transfer-learning-91dea84adeed).
+This project is an extension of [Martin Chobanyan's Project](https://github.com/martin-chobanyan/emotion.git). The author has also explained the process in an [article](https://towardsdatascience.com/training-an-emotion-detector-with-transfer-learning-91dea84adeed).
 
 In this we have removed any inconsistencies and dependency issues and also corrected few errors from that project. The hyper-parameters were also changed to produce a better model. 
 
