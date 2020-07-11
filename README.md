@@ -45,8 +45,9 @@ python detect_emotions.py
 ```
 
 - Press ```q``` on the keyboard to stop video capture and to stop the program.
+### Troubleshooting
 
-### Note-1
+#### Note-1
 If you are trying to run this on a non-GPU device (or a GPU that doesn't support CUDA), you may face some issues with loading the model ```torch```, since the model was trained using GPUs. In such case, please follow as below.
 
 1. Activate your virtual environment
@@ -69,8 +70,8 @@ def load(f, map_location=None, pickle_module=pickle, \*\*pickle_load_args):
 
 7. Change the map_location from ```None``` to ```'cpu'```
 
-### Note-2
+#### Note-2
 This camera overlay text requires the font ```FreeMono Bold```. The font is in the project repository (```FreeMonoBold.ttf```).
 
-### Note-3
+#### Note-3
 This project by default tries to run on laptop's built in webcam. If you want external cameras, modify line 112 of ```detect_emotions.py``` accordingly.
